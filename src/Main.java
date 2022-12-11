@@ -45,9 +45,9 @@ public class Main {
                 var idk = scan.nextLine();
                 double b = Double.parseDouble(idk);
                 out.println(a / b);
-            } else {
+            } /*else {
                 out.println("I didn't seem to quite understand what you were trying to do.\nPlease enter an operation of numbers (1, 2, 3, 4), symbols (e.x +, -, /, *), the word form (e.x division, divide, multiply, subtract, add) or the word form of the number (e.x one, two, three, four).");
-            }
+            }*/
         } catch (Exception e) {
             out.println(e.getMessage());
         }
